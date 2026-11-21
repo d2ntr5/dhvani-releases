@@ -3,10 +3,10 @@
   <channel>
     <title>Dhvani</title>
     <item>
-      <title>Dhvani 0.1.0</title>
-      <pubDate>Sat, 21 Nov 2026 04:18:14 GMT</pubDate>
-      <sparkle:version>5</sparkle:version>
-      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <title>Dhvani 0.1.1</title>
+      <pubDate>Sat, 21 Nov 2026 04:23:43 GMT</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,11 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="5" data-v="0.1.0"><h3>v0.1.0<span class="tag">설치할 버전</span><small>2026-11-21</small></h3>
+<section data-sparkle-version="7" data-v="0.1.1"><h3>v0.1.1<span class="tag">설치할 버전</span><small>2026-11-21</small></h3>
+<ul>
+<li>화면 공유로 원격 접속 중에는 볼륨 키를 받지 않습니다(입력을 가로채는 이벤트 탭을 내림). 설정 › 일반에 알림이 보이고, 팝업 슬라이더는 그대로 됩니다. 접속이 끝나면 다시 받습니다.</li>
+</ul></section>
+<section data-sparkle-version="5" data-v="0.1.0"><h3>v0.1.0<small>2026-11-21</small></h3>
 <ul>
 <li>처음 버전: 메뉴 막대에서 소리 출력 장치를 골라 그 장치의 볼륨을 조정합니다.</li>
 <li>HDMI · DisplayPort 모니터 스피커는 모니터 볼륨 명령(DDC/CI)으로, 내장 스피커 등은 macOS 볼륨으로 바꾸고, 둘 다 안 되는 장치는 「조정 불가」로 보여 줍니다.</li>
@@ -25,7 +29,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>소리가 모니터로 나갈 때 볼륨 · 음소거 키(F10 · F11 · F12)로 모니터 볼륨을 바꾸고 화면에 볼륨을 표시합니다(손쉬운 사용 허용 필요).</li>
 <li>첫 실행 가이드, 머리 색 · 화면 모드 · 글씨 크기, 앱 안 업데이트.</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/dhvani-releases/main/releases/Dhvani-0.1.0.zip" length="2963249" type="application/octet-stream" sparkle:edSignature="Wo62KQes/bubDrkj2q6a8KKASDdQDdkdRI17M+cPnaMcQdZ/+34OQdJx+olVy5HB6jsPGjHCjyDVJ5aI3NDBBQ=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/dhvani-releases/main/releases/Dhvani-0.1.1.zip" length="2973607" type="application/octet-stream" sparkle:edSignature="hVPcbVihvwu2fa1Hq35Wv9fZvsXxjH1RqJ+l37HNNiwBoBpnTAl1m8pG6YUARiLjup2pbCI28ivM545AvN8ADA=="/>
     </item>
   </channel>
 </rss>
