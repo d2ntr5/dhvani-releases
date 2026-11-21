@@ -3,10 +3,10 @@
   <channel>
     <title>Dhvani</title>
     <item>
-      <title>Dhvani 0.1.2</title>
-      <pubDate>Sat, 21 Nov 2026 04:31:54 GMT</pubDate>
-      <sparkle:version>9</sparkle:version>
-      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <title>Dhvani 0.1.3</title>
+      <pubDate>Sat, 21 Nov 2026 04:39:02 GMT</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,11 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="9" data-v="0.1.2"><h3>v0.1.2<span class="tag">설치할 버전</span><small>2026-11-21</small></h3>
+<section data-sparkle-version="11" data-v="0.1.3"><h3>v0.1.3<span class="tag">설치할 버전</span><small>2026-11-21</small></h3>
+<ul>
+<li>앱이 뒤에 있을 때도 설정 창 · 시작하기 창의 탭과 단추가 첫 클릭에 바로 눌립니다(창을 앞으로 가져오는 데만 쓰이지 않게).</li>
+</ul></section>
+<section data-sparkle-version="9" data-v="0.1.2"><h3>v0.1.2<small>2026-11-21</small></h3>
 <ul>
 <li>앱 동작은 그대로입니다. 릴리즈 전 시험(숨은 경고창 확인)이 업데이트 탭을 열지 못하던 것을 고쳐, 업데이트 확인 경고창이 다른 화면 뒤에 숨어도 메뉴 막대 아이콘으로 다시 불러오고 「확인」 · 설정 창 닫기가 눌리는 것을 확인했습니다.</li>
 </ul></section>
@@ -33,7 +37,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>소리가 모니터로 나갈 때 볼륨 · 음소거 키(F10 · F11 · F12)로 모니터 볼륨을 바꾸고 화면에 볼륨을 표시합니다(손쉬운 사용 허용 필요).</li>
 <li>첫 실행 가이드, 머리 색 · 화면 모드 · 글씨 크기, 앱 안 업데이트.</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/dhvani-releases/main/releases/Dhvani-0.1.2.zip" length="2973750" type="application/octet-stream" sparkle:edSignature="DFQWDC/sKH3f/Y/2mk08gLVXUwZIxjgiYd2B5iY9VbiZC9y4ElIpawHn7+dWgCW5C4SHH94kwku+F4ap40+CBg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/dhvani-releases/main/releases/Dhvani-0.1.3.zip" length="2978438" type="application/octet-stream" sparkle:edSignature="0dHkFux04BA5IU/4HJlw/RhGI6Ck9kHFUypedx6OUBu1pzcfSaKaz+ZHDHnuvalO7k/JYwR9qB+wUTIowi5rAw=="/>
     </item>
   </channel>
 </rss>
