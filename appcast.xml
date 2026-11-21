@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Dhvani</title>
+    <item>
+      <title>Dhvani 0.1.0</title>
+      <pubDate>Sat, 21 Nov 2026 04:18:14 GMT</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<style>
+section h3 { margin: 0 0 2px; font-size: 1.05em; }
+section h3 small { font-weight: normal; color: #8E8E93; margin-left: 6px; }
+section .tag { font-size: 0.8em; font-weight: bold; color: #fff; background: #0A84FF; border-radius: 4px; padding: 0 5px; margin-left: 6px; }
+section ul { margin: 0 0 12px; padding-left: 18px; }
+.sparkle-installed-version > * { display: none; }
+.sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
+.sparkle-installed-version ~ section { display: none; }
+</style>
+<section data-sparkle-version="5" data-v="0.1.0"><h3>v0.1.0<span class="tag">설치할 버전</span><small>2026-11-21</small></h3>
+<ul>
+<li>처음 버전: 메뉴 막대에서 소리 출력 장치를 골라 그 장치의 볼륨을 조정합니다.</li>
+<li>HDMI · DisplayPort 모니터 스피커는 모니터 볼륨 명령(DDC/CI)으로, 내장 스피커 등은 macOS 볼륨으로 바꾸고, 둘 다 안 되는 장치는 「조정 불가」로 보여 줍니다.</li>
+<li>장치를 고르면 맥 소리 출력도 그 장치로 바꿉니다(설정에서 끌 수 있음).</li>
+<li>소리가 모니터로 나갈 때 볼륨 · 음소거 키(F10 · F11 · F12)로 모니터 볼륨을 바꾸고 화면에 볼륨을 표시합니다(손쉬운 사용 허용 필요).</li>
+<li>첫 실행 가이드, 머리 색 · 화면 모드 · 글씨 크기, 앱 안 업데이트.</li>
+</ul></section>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/dhvani-releases/main/releases/Dhvani-0.1.0.zip" length="2963249" type="application/octet-stream" sparkle:edSignature="Wo62KQes/bubDrkj2q6a8KKASDdQDdkdRI17M+cPnaMcQdZ/+34OQdJx+olVy5HB6jsPGjHCjyDVJ5aI3NDBBQ=="/>
+    </item>
+  </channel>
+</rss>
