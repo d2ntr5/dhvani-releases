@@ -3,10 +3,10 @@
   <channel>
     <title>Dhvani</title>
     <item>
-      <title>Dhvani 0.1.3</title>
-      <pubDate>Sat, 21 Nov 2026 04:39:02 GMT</pubDate>
-      <sparkle:version>11</sparkle:version>
-      <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
+      <title>Dhvani 0.1.4</title>
+      <pubDate>Mon, 23 Nov 2026 02:05:43 GMT</pubDate>
+      <sparkle:version>23</sparkle:version>
+      <sparkle:shortVersionString>0.1.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 2px; font-size: 1.05em; }
@@ -17,7 +17,14 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 .sparkle-installed-version::after { content: "v" attr(data-v) " (지금 버전) 이전 내용은 보여 주지 않습니다."; display: block; color: #8E8E93; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 .sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="11" data-v="0.1.3"><h3>v0.1.3<span class="tag">설치할 버전</span><small>2026-11-21</small></h3>
+<section data-sparkle-version="23" data-v="0.1.4"><h3>v0.1.4<span class="tag">설치할 버전</span><small>2026-11-23</small></h3>
+<ul>
+<li>설정에 「로그」 탭이 생겼습니다(업데이트 앞). 앱 · 업데이트 · 설정 변경 · 장치 · 볼륨 조정 로그를 따로 남기고, 로그마다 켜고 끄기 · 모두 켜기/끄기 · 크기(지금 / 한도 · 파일 수) · 지우기를 할 수 있습니다.</li>
+<li>로그는 로그마다 파일 5개를 돌려 써서 한도(앱 · 장치 · 볼륨 조정 20 MB, 업데이트 · 설정 변경 5 MB)를 넘지 않습니다. 볼륨 키를 누른 기록이 남는 「볼륨 조정」 로그는 처음에 꺼져 있습니다. 비밀 값과 입력한 글은 남기지 않습니다.</li>
+<li>고침: 화면이 하나뿐일 때 화면 밖에 반쯤 숨은 경고창(업데이트 확인 결과 등)을 메뉴 막대 아이콘으로 불러와도 일부가 화면 밖에 남던 것 — 이제 화면 가운데로 옮깁니다.</li>
+<li>「로그 내보내기…」로 모든 로그와 지난 파일, 앱 · macOS 정보(info.txt)를 zip 하나(Dhvani-logs-날짜-시각.zip)로 저장합니다. 「로그 초기화…」는 확인 창을 거쳐 모두 지웁니다.</li>
+</ul></section>
+<section data-sparkle-version="11" data-v="0.1.3"><h3>v0.1.3<small>2026-11-21</small></h3>
 <ul>
 <li>앱이 뒤에 있을 때도 설정 창 · 시작하기 창의 탭과 단추가 첫 클릭에 바로 눌립니다(창을 앞으로 가져오는 데만 쓰이지 않게).</li>
 </ul></section>
@@ -37,7 +44,7 @@ section ul { margin: 0 0 12px; padding-left: 18px; }
 <li>소리가 모니터로 나갈 때 볼륨 · 음소거 키(F10 · F11 · F12)로 모니터 볼륨을 바꾸고 화면에 볼륨을 표시합니다(손쉬운 사용 허용 필요).</li>
 <li>첫 실행 가이드, 머리 색 · 화면 모드 · 글씨 크기, 앱 안 업데이트.</li>
 </ul></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/dhvani-releases/main/releases/Dhvani-0.1.3.zip" length="2978438" type="application/octet-stream" sparkle:edSignature="0dHkFux04BA5IU/4HJlw/RhGI6Ck9kHFUypedx6OUBu1pzcfSaKaz+ZHDHnuvalO7k/JYwR9qB+wUTIowi5rAw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/dhvani-releases/main/releases/Dhvani-0.1.4.zip" length="3165237" type="application/octet-stream" sparkle:edSignature="Ce2f6B8tRgFSlPgeY3rsp/dXJM+eBLTClWaaVwzGE7OkYZ9KwjWTFxGbBxQ7HrWvjXp57ZXR5iHVxhFWN+jJAA=="/>
     </item>
   </channel>
 </rss>
